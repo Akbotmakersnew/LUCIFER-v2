@@ -21,10 +21,10 @@ BOT_TOKEN = environ.get("BOT_TOKEN", "1996476799:AAFPcmLz2hlEJw_4z2JggKFkHzH7Fzi
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/79b3e34f7564c40769158.jpg https://telegra.ph/file/d7315853490a8f1d349a8.jpg https://telegra.ph/file/7e732dc19c4c4df40e1ff.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/46443096bc6895c74a716.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/23b22d2aba57342f4c548.mp4")
-SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a1b9.jpg")
+PICS = (environ.get('PICS', '')).split()
+NOR_IMG = environ.get("NOR_IMG", "")
+MELCOW_VID = environ.get("MELCOW_VID", "")
+SPELL_IMG = environ.get("SPELL_IMG", "")
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
@@ -47,8 +47,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/LUCIFER_support')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/LUCIFER_Updates')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/iam_eldro')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/movie_maniac007')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'bots_supported')
