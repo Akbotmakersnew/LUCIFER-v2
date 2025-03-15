@@ -1,4 +1,4 @@
-pyrogram>=2.0.106
+pyrogram==2.0.106
 tgcrypto
 pymongo[srv]==3.12.3
 motor==2.5.1
@@ -10,3 +10,6 @@ git+https://github.com/Joelkb/cinemagoer
 datetime
 pytz
 aiohttp
+python-telegram-bot==20.0a1
+pysocks==1.7.1
+python-dotenv==0.20.0
