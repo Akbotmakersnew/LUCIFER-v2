@@ -46,6 +46,8 @@ async def give_filter(client, message):
         try:
             if settings['auto_ffilter']:
                 await auto_filter(client, message)
+                except errors.Forbidden as e:
+                    await message.reply("Error: Bot is not allowed to send photos in this chat.")
         except KeyError:
             grpid = await active_connection(str(message.from_user.id))
             await save_group_settings(grpid, 'auto_ffilter', True)
@@ -177,11 +179,11 @@ async def next_page(bot, query):
         await query.edit_message_reply_markup(
             reply_markup=InlineKeyboardMarkup(btn)
         )
-    except MessageNotModified:
-        pass
-    await query.answer()
-
-
+    try:
+        await query.answer()
+      except errors.BadRequest as e:
+          if str(e) == "BUTTON_URL_INVALID":
+          await message.reply("Error: Invalid button URL.")
 @Client.on_callback_query(filters.regex(r"^spolling"))
 async def advantage_spoll_choker(bot, query):
     _, user, movie_ = query.data.split('#')
@@ -196,7 +198,8 @@ async def advantage_spoll_choker(bot, query):
     await query.answer(script.TOP_ALRT_MSG)
     k = await manual_filters(bot, query.message, text=movie)
     if k == False:
-        files, offset, total_results = await get_search_results(movie, offset=0, filter=True)
+        files
+        , offset, total_results = await get_search_results(movie, offset=0, filter=True)
         if files:
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
