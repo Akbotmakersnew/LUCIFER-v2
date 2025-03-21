@@ -23,7 +23,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = (environ.get('PICS', 'https://graph.org/file/0200ac4ddac95e5de1f99-57ce81707fd739b33d.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/0200ac4ddac95e5de1f99-57ce81707fd739b33d.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/0200ac4ddac95e5de1f99-57ce81707fd739b33d.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/2cc0126fdd3b40bbf123a.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/0200ac4ddac95e5de1f99-57ce81707fd739b33d.jpg")
 
 # Admins, Channels & Users
@@ -68,8 +68,6 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "False")), False)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
-FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+omKsBvhjAmwwYmU9")
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
