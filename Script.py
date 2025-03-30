@@ -9,7 +9,7 @@ i𝗍𝗌 𝖾𝖺𝗌𝗒 𝗍𝗈 𝗎𝗌𝖾 𝗆𝖾; 𝗃𝗎𝗌𝗍 𝖺
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: {}
-✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/iam_eldro'>MR ELDRO</a>
+✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/iam_eldro'>Mr Eldro</a>
 ✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
 ✯ POWERED BY: <a href='https://t.me/JB_LINKS'>JB LINKS</a>
 ✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
@@ -18,8 +18,8 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 ✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v2.0.3 [ Sᴛᴀʙʟᴇ ]</b>"""
 
     SOURCE_TXT = """<b>ɴᴏᴛᴇ:
-- ⚠️ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ɴᴏᴛ ᴀɴ  ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ
-- ꜱource⚡️ - <a href="https://t.me/LUCIFER_support">NOT AVAILABLE</a>
+- ⚠️ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ɴᴏᴛ ᴀɴ  ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ 
+- ꜱource⚡️ - If you want source code, Contact @iam_eldro
 
 Dᴇᴠs:
 - <a href="https://t.me/iam_eldro">Mr Eldro</a></b>"""
@@ -227,7 +227,7 @@ Nᴀᴍᴇ - {}"""
 🎬 ️Dɪʀᴇᴄᴛᴏʀ : {director} 
 📚 ️Wʀɪᴛᴇʀs : {writer}
 
-🔹 Pᴏᴡᴇʀᴇᴅ Bʏ {message.chat.title} </b>"""
+🔹 Pᴏᴡᴇʀᴇᴅ Bʏ : <a href="https://t.me/jb_links">JB LINKS</a></b>"""
 
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
